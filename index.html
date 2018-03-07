@@ -18,6 +18,9 @@
         <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">   
         <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">       
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+
         <!-- Place favicon.ico in the root directory -->
           <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/normalize.css">
@@ -41,23 +44,26 @@
 
 
             <div id = "off" class=" centre  jumbotron">
-                <h1 class="display-3">Bienvenu </h1>
-                <p class="lead">Une petite partie de Pierre Feuille Ciseaux</p>
+                <h1 class="display-3">Bienvenue </h1>
+                <p class="lead">Une petite partie de Pierre Feuille Ciseaux . Pour Sauver le monde ?</p>
                 <hr class="my-2">
                 
                 <p class="lead">
-                  <button class="btn">GO ! </button>
+                  <button onclick="change()" class="btn">GO ! </button>
                 </p>
+                <br>
+                <p class="police"> <i class="fas fa-exclamation-triangle"></i> Votre mission et de vaincre l’ordinateur ! Skynet avant que le programme infecte l’internet mondiale  <i class="fas fa-exclamation-triangle"></i>   </p>
               </div>
 
 
               
 
 
-            <div id = "Game" class=" centre  jumbotron">
-                <h1 class="display-3">La partie commance  </h1>
+            <div id = "game" class=" centre  jumbotron">
+                <h1 class="display-5">Vous devez Atteindre 4 points pour Gagner </h1>
                 <p class="lead">Faite votre choix entre Pierre Feuille Ciseaux</p>
                 <hr class="my-2">
+                
 
                
 
@@ -67,37 +73,71 @@
                     <option value="2">feuille</option>
                     <option value="3">ciseaux</option>
                   </select> <br> <br>
-                  <p><strong id="action"></strong></p>
+                  <p><strong class="display-5" id="action"></strong></p>
                 
                   <button onclick="joueur()" class="btn">Jouer</button> <br> <br>   
                         <div id="js">
                             
-                            <h1 class="centre ">Joueur</h1> <br> 
+                            <h1 class="centre ">Vous! </h1> <br> 
+                            <p>Votre barre de Vie </p> <br>
+                                
+                            <div class="flex">
+                        <div id="vie1"></div> 
+                        <div id="vie2"></div> 
+                        <div id="vie3"></div> 
+                        <div id="vie4"></div>   
+                            </div>
                             <p>Votre scrore <strong id="sj"></strong> </p> 
 
 
                         </div>
                   
                   
-                        <h2 class="centre">VS </h2>
+                        <h2 class="centre">VS </h2>  
+                        <p><strong id="finsh"></strong></p>
+                
+                        <p class="lead">
+                        
 
                         <div id="bb">
-                            <h1 class="centre ">Ordinateur</h1> <br>
-                            <p>Scrore Ordinateur <strong id="sb"></strong> </p>
+                            <h1 class="centre ">Skynet</h1> <br>
+                            <p>Barre de vie Skynet  </p> <br>
+                                
+                        <div class="flex">
+                          <div id="vies1"></div>    
+                          <div id="vies2"></div> 
+                        <div id="vies3"></div> 
+                         <div id="vies4"></div>   
+                        </div>  
+
+
+                            <p>Scrore Skynet <strong id="sb"></strong> </p>
                             <strong id="choixor"></strong> </p>
                         </div>
                   
 
                                 
-                                     <p><strong id="finsh"></strong></p>
-                
-                <p class="lead">
+                                     
                 </p>
               </div>
               
               
 
+              <nav class="navbar fixed-bottom navbar-dark bg-dark">  
+                <p class="dsplay-6 color"> Site éditez par Slimane Hassani  </p>
+              
+                  <div class=" footer-color d-flex justify-content-end">
+                    <ul class="rss">
+                      <li class="display-7">Suivez-moi </li>
+                      <li><a href="https://www.linkedin.com/in/slimane-hassani-63782b139/"><i class="fab fa-linkedin-in"></i></a> </li>
+                      <li><a href="https://github.com/Slimaneha"><i class="fab fa-github-alt"></i>
 
+                      </a></li>
+                      <li><a href="#"><i class="fab fa-facebook-square"></i>     </a>    </li>
+                    </ul>
+                  </div>    
+                
+                </nav>        
               
 
 

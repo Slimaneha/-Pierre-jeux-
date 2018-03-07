@@ -127,9 +127,20 @@ textarea {
         
     }
 
-    #off {
-        display: none;
+    #js{
+        border:solid 1px green !important ;
     }
+
+    #bb
+    {
+        border: solid red 1px !important; 
+        color: red;
+    }
+
+   #game 
+   {
+    display: none;
+   }
 
 
     body , .jumbotron{
@@ -152,6 +163,36 @@ textarea {
         font-size: 25px;    
     }
 
+
+    
+    #vie1,#vie2,#vie3,#vie4
+    {
+        background-color: green; 
+        width: 50px; 
+        height: 20px;
+        border: 1px solid black ;
+        justify-content: center !important ;  
+    }   
+
+    .flex{
+        display: flex; 
+        justify-content: center !important   ; 
+        
+      
+        
+    }
+
+    #vies1,#vies2,#vies3,#vies4
+    {
+        background-color: red; 
+        width: 50px; 
+        height: 20px;
+        border: 1px solid black ;
+    }
+
+    #finish{
+        font-size: 20px;
+    }
 
 
         /* Pages de bienvenue ! */ 
